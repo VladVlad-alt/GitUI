@@ -19,8 +19,20 @@ public class Main {
 
     }
 
-    public static void sum(int a, int b){
+    public static void sum(int a, int b) {
         System.out.println(a + b);
+    }
+
+    public static void sub(int a, int b) {
+        System.out.println(a - b);
+    }
+
+    public static void milt(int a, int b) {
+        System.out.println(a * b);
+    }
+
+    public static void div(int a, int b) {
+        System.out.println(a / b);
     }
 
 }
