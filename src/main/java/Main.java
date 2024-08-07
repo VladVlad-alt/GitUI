@@ -12,8 +12,12 @@ public class Main {
 
         if (operation.equals("+")) {
             sum(x, y);
-        } else {
-            System.out.println("Это я пока не умею");
+        } else if (operation.equals("-")) {
+            sub(x, y);
+        } else if (operation.equals("*")) {
+           milt(x, y);
+        } else if(operation.equals("/")){
+            div(x, y);
         }
 
 
