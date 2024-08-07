@@ -15,8 +15,8 @@ public class Main {
         } else if (operation.equals("-")) {
             sub(x, y);
         } else if (operation.equals("*")) {
-           milt(x, y);
-        } else if(operation.equals("/")){
+            milt(x, y);
+        } else if (operation.equals("/")) {
             div(x, y);
         }
 
@@ -36,7 +36,11 @@ public class Main {
     }
 
     public static void div(int a, int b) {
-        System.out.println(a / b);
+        if (a == 0 || b == 0) {
+            System.out.println("Ошибка деления");
+        } else {
+            System.out.println(a / b);
+        }
     }
 
 }
